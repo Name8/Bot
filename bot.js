@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "#";
+var prefix = "-";
 client.on('message', message => {
-    if (message.content == "#سرعه") {
+    if (message.content == "-سرعه") {
         var x = ["DreamKing",
 "DeathGames",
 "زيرو كنج",
@@ -165,7 +165,7 @@ client.on('message', puz => {
 })
 
 client.on('message', fkk => {
-    if (fkk.content == "#فكك") {
+    if (fkk.content == "-فكك") {
         var x = ["المتاح للجميع لا يتاح لي",
 "خعاخع",
 "فيلا",
